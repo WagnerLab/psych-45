@@ -1,0 +1,128 @@
+---
+layout: default
+---
+
+<header>
+{% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+  <div class="dashed"></div>
+{% endif %}
+
+  <h2>{{ site.title }}</h2>
+  {% if site.theme_config.show_description == true %}
+    <p>{{ site.description }}</p>
+  {% endif %}
+
+  <h2>Instructor</h2>
+  <h3>{{ site.instructor }}</h3>
+  <img src="../assets/images/team/anthony.jpg" width="100px" />
+  <ul>
+    <li><strong>Email:</strong> <a href="mailto:awagner@stanford.edu">awagner</a></li>
+    <li><strong>Office Hours (+by appointment):</strong> Wed 2:30-3:30pm</li>
+    <li><strong>Office Location:</strong> Bldg 420, Rm 402</li>
+  </ul>
+
+  <h2>Teaching Assistants</h2>
+  <!-- <p>{{ site.teaching_assistants }}</p> -->
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">TA<br />Name</th>
+        <th scope="col">Email (@stanford)</th>
+        <th scope="col">OH (+by appointment)</th>
+        <th scope="col">Office Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <th><img src="../assets/images/team/adam.jpg" width="75px" /></th>
+        <th scope="row">Adam Acevedo (he/him)</th>
+        <td><a href="mailto:aceadam@stanford.edu">aceadam</a></td>
+        <td>Tues 4:30-5:30pm</td>
+        <td>Bldg 460, Rm 040A</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <th><img src="../assets/images/team/veronica.jpg" width="75px" /></th>
+        <th scope="row">Veronica Boyce (she/her)</th>
+        <td><a href="mailto:vboyce@stanford.edu">vboyce</a></td>
+        <td>Tues 2:00-3:00pm</td>
+        <td>Bldg 420, 4th Floor table near Rm 402</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <th><img src="../assets/images/team/ayo.jpg" width="75px" /></th>
+        <th scope="row">Ayo Dada (he/him)</th>
+        <td><a href="mailto:ayo.dada@stanford.edu">ayo.dada</a></td>
+        <td>Thurs 3:00-4:00pm</td>
+        <td>Bldg 420, Rm 384</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <th><img src="../assets/images/team/nathan.jpg" width="75px" /></th>
+        <th scope="row">Nathan Kong (he/him)</th>
+        <td><a href="mailto:nclkong@stanford.edu">nclkong</a></td>
+        <td>Fri 2:00-3:00pm</td>
+        <td>Bldg 420, Rm 321</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <th><img src="../assets/images/team/douglas.jpg" width="75px" /></th>
+        <th scope="row">Douglas Miller (he/him)</th>
+        <td><a href="mailto:dsmiller@stanford.edu">dsmiller</a></td>
+        <td>Thurs 2:00-3:00pm</td>
+        <td>Bldg 420, Rm 316</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <th><img src="../assets/images/team/shawn.jpg" width="75px" /></th>
+        <th scope="row">Shawn Schwartz (he/him)</th>
+        <td><a href="mailto:stschwartz@stanford.edu">stschwartz</a></td>
+        <td>Tues 10:30-11:30am</td>
+        <td>Bldg 420, Rm 432</td>
+      </tr>
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <th><img src="../assets/images/team/tara.png" width="75px" /></th>
+        <th scope="row">Tara Srirangarajan (she/her)</th>
+        <td><a href="mailto:tarasri@stanford.edu">tarasri</a></td>
+        <td>Mon 3:30-4:30pm</td>
+        <td>Bldg 420, Rm 478</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</header>
+
+{{ content }}
+
+{% if site.theme_config.show_projects == true %}
+  <h2>{{ site.theme_config.home.title_projects }}</h2>
+  {% include card_list.html collection=site.data.home.project_entries %}
+{% endif %}
+
+{% if site.theme_config.show_misc_list == true %}
+  <h2>{{ site.theme_config.home.title_misc_list }}</h2>
+  {% include vertical_list.html collection=site.data.home.misc_entries %}
+{% endif %}
+
+{% if site.theme_config.show_blog == true %}
+  <h2>{{ site.theme_config.home.title_blog }}</h2>
+  {% include post_list.html %}
+{% endif %}
+
+{% if site.theme_config.show_old_projects == true %}
+  <h2>{{ site.theme_config.home.title_old_projects }}</h2>
+  {% include card_list.html collection=site.data.home.old_project_entries %}
+{% endif %}
+
+
+{% if site.theme_config.show_footer == true %}
+  <footer>
+    <div class="dashed"></div>
+    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+  </footer>
+{% endif %}
