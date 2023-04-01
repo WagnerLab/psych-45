@@ -33,8 +33,6 @@ theme_config:
   home:
     title_projects: Course Resources
     title_misc_list: Details
-    # title_blog: Blog
-    # title_old_projects: Old Projects
     
 highlighter: rouge
 

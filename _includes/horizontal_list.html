@@ -1,7 +1,11 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
     <li>
+      {% if item.title == "archives" %}
+      <a href="{{ item.url }}" target="_blank">
+      {% else %}
       <a href="{{ item.url }}">
+      {% endif %}
         {{ item.title }}
       </a>
       &nbsp;&nbsp;
