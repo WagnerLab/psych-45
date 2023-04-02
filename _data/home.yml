@@ -1,6 +1,6 @@
 navbar_entries:
   - title: home
-    url: /
+    url: /psych-45/
 
   - title: memory in action (MiA)
     url: mia

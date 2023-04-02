@@ -39,7 +39,7 @@ If anyone is feeling really brave, you can try a version of the Jaeggi working m
 
 A very quick demo of the Stroop task can be found [here](http://www.math.unt.edu/~tam/selftests/stroopeffects.html){:target="_blank"}.
 
-## Memory Retrieval¶
+## Memory Retrieval
 
 ### Signal Detection Theory
 
