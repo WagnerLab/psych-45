@@ -16,8 +16,8 @@ navbar_entries:
 
 project_entries:
   - title: Syllabus
-    url: #
-    desc: View course syllabus PDF here
+    url: /psych-45/assets/documents/Psych45_Syllabus_2023_04.03.23.pdf
+    desc: View course syllabus PDF
 
   - title: Piazza
     url: https://piazza.com/class/lfv991dp6ij7lw
