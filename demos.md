@@ -33,12 +33,6 @@ A classic n-back task can be found by navigating to [this page](http://cognitive
 
 If anyone is feeling really brave, you can try a version of the Jaeggi working memory training task that we’ll discuss in class by choosing *Jaeggi-Buschkuehl dual n-back task*.
 
-## Cognitive Control
-
-### Stroop Task
-
-A very quick demo of the Stroop task can be found [here](http://www.math.unt.edu/~tam/selftests/stroopeffects.html){:target="_blank"}.
-
 ## Memory Retrieval
 
 ### Signal Detection Theory
