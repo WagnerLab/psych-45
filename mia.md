@@ -5,6 +5,8 @@ title: Memory in Action (MiA)
 
 > This is a collection of the assigned Memory in Action assignments for class. Please follow the instructions to complete each demo, and enter your (brief!) responses directly into the text box for the assignment on Canvas. **As a reminder, responses must be uploaded to Canvas & data must be submitted by no later than 24hrs prior to the date/lecture specified on the syllabus.**
 
+<mark><strong>For any technical difficulties with any demo or MiA assignment submission on Canvas, please email:<br />TA Shawn Schwartz: <a href="mailto:stschwartz@stanford.edu?Subject=[Psych45]:%20MiA%20Task%20Demo%20Issue" target="_blank">stschwartz [at] stanford [dot] edu</a></strong></mark>
+
 # 4/18: MiA #1: Working Memory
 
 We will have you complete two different types of working memory tasks. The first is the classic “N-Back” task. In this task, you will indicate whether or not any given item in a sequence of items matches the one presented “N” items ago. In the n-back tasks we’ll have you complete, you’ll experience the 1-back, 2-back, 3-back, and 4-back versions of the task. Then, the second task you’ll complete is the classic Sternberg working memory task. 
