@@ -5,7 +5,7 @@ title: Course Demos
 
 This is a collection of demos that may be helpful for understanding the memory experiments and findings that we cover in class.
 
-<mark>Note: Please keep in mind that these demos are meant to give you a feel for how we measure real world phenomena in a lab. Although some will give you your results, remember that healthy people vary a lot on how they do on any given task – any results are not diagnostic!</mark>
+> Note: Please keep in mind that these demos are meant to give you a feel for how we measure real world phenomena in a lab. Although some will give you your results, remember that healthy people vary a lot on how they do on any given task – any results are not diagnostic!
 
 ## Working Memory
 
