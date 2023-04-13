@@ -27,7 +27,7 @@ For both tasks, you must use a laptop or desktop computer (not a mobile phone or
 2. Now, compare and contrast the N-back task with the Sternberg task. What was different between them, and how did you have to adapt your strategies to complete this task compared to the n-back tasks?
 3. How could you change each task to make them easier or harder, other than changing the number of targets (i.e., N for N-back, or the number of items you were presented during each trial of the Sternberg)?
 
-> To receive credit, please complete the demos, then submit your two data files to the appropriate assignments on Canvas under the *“Assignments” tab > “MiA #1: Working Memory” group > (‘N-Back Data File Upload’; ‘Sternberg Data File Upload’), as well as your answers to these prompts on Canvas (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Monday (4/17).**
+> To receive credit, please complete the demos, then submit your two data files to the appropriate assignments on Canvas under the *“Assignments” tab (Click "Show By Type" at the top-right corner of the screen) > “MiA #1: Working Memory” group > (‘N-Back Data File Upload’; ‘Sternberg Data File Upload’), as well as your answers to these prompts on Canvas (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Monday (4/17).**
 
 #### View analyzed class data:
 <code>link to analyzed data will be here following the data submission due date</code>
@@ -47,7 +47,7 @@ Importantly, please make sure you time your responses for each of the two tasks 
 3. Do you think the effect would be larger or smaller if, instead of identifying the color that color words were printed in, you were identifying the font that different font names were printed in? What about numbers in different font sizes? Explain your thinking?
 4. Is there an example of the Stroop effect you’ve observed in the real world?
 
-> To receive credit, please complete the demo, then submit your response times to the Google Form (linked above), and your answers to these prompts on Canvas under the *“Assignments” tab > “MiA #2: Stroop” group > (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Wednesday (4/19).**
+> To receive credit, please complete the demo, then submit your response times to the Google Form (linked above), and your answers to these prompts on Canvas under the *“Assignments” tab (Click "Show By Type" at the top-right corner of the screen) > “MiA #2: Stroop” group > (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Wednesday (4/19).**
 
 #### View analyzed class data:
 <code>link to analyzed data will be here following the data submission due date</code>
@@ -61,7 +61,7 @@ First, go to this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf5rVw2
 1. Briefly describe the strategy that you used (or that you think you used) to make these decisions.
 2. Choose one of the categories (i.e., fruit, sport, bird, vehicle, crime, vegetable), and list what you consider the most important defining features of that category to be.
 
-> To receive credit, please complete the task on the Google Form (linked above), and then submit your responses to these prompts on Canvas under the *“Assignments” tab > “MiA #3: Semantic Memory” group > (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Monday (4/24)**.
+> To receive credit, please complete the task on the Google Form (linked above), and then submit your responses to these prompts on Canvas under the *“Assignments” tab (Click "Show By Type" at the top-right corner of the screen) > “MiA #3: Semantic Memory” group > (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Monday (4/24)**.
 
 #### View analyzed class data:
 <code>link to analyzed data will be here following the data submission due date</code>
@@ -79,7 +79,7 @@ After completing the demo, you’ll see a summary screen. Click “Submit Result
 2. How was your memory performance for the different types (positive, negative, neutral) of words? Why do you think this was the case? Did you use different encoding and/or retrieval strategies for the different types of words?
 3. (Optional). Feel free to share any additional comments.
 
-> To receive credit, please submit your data on the Google Form (linked above), as well as your answers to these prompts on Canvas under the *“Assignments” tab > “MiA #4: Emotion & Memory” group > (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Monday (5/29).**
+> To receive credit, please submit your data on the Google Form (linked above), as well as your answers to these prompts on Canvas under the *“Assignments” tab (Click "Show By Type" at the top-right corner of the screen) > “MiA #4: Emotion & Memory” group > (‘Responses to Prompts’)* **by no later than 9:00 AM PDT on Monday (5/29).**
 
 #### View analyzed class data:
 <code>link to analyzed data will be here following the data submission due date</code>
@@ -95,4 +95,4 @@ Try to think of at least one instance of each of the following:
 1. Forgetting
 2. False memory
 
-> To receive credit, please submit whatever examples of errors that you feel comfortable sharing from your journal on Canvas under the *“Assignments” tab > “MiA #5: Memory Errors” group > (‘Journal’)* **by no later than 9:00 AM PDT on Wednesday (5/31).**
+> To receive credit, please submit whatever examples of errors that you feel comfortable sharing from your journal on Canvas under the *“Assignments” tab (Click "Show By Type" at the top-right corner of the screen) > “MiA #5: Memory Errors” group > (‘Journal’)* **by no later than 9:00 AM PDT on Wednesday (5/31).**
