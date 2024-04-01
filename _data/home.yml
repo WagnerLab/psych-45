@@ -1,15 +1,15 @@
 navbar_entries:
   - title: home
-    url: /psych-45/
+    url: /psych-45
 
   - title: memory in action (MiA)
-    url: mia/
+    url: mia
 
   - title: course demos
-    url: demos/
+    url: demos
 
   - title: additional resources
-    url: resources/
+    url: resources
 
   - title: archives
     url: https://web.stanford.edu/class/psych45/index.html
