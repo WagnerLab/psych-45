@@ -1,10 +1,24 @@
 ---
 layout: default
 ---
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
-
 <header>
-  <h1>{{ site.title }}</h1>
+  {% if site.theme_config.show_navbar == true %}
+      {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+      <div class="dashed"></div>
+  {% endif %}
+
+  <h1>Memory in Action (MiA) Demos</h1>
 </header>
 
-{% include post_list.html %}
+<blockquote style="text-align: left; font-size: 0.9em;"">Please follow the instructions to complete each demo, and enter your (brief!) responses directly into the text box for the assignment on Canvas. 
+  <br />
+  <br />
+  <em>As a reminder, responses must be uploaded to Canvas & data must be submitted by no later than 24hrs prior to the date/lecture specified on the syllabus.</em>
+  <br />
+  <br />
+  <strong>For any technical difficulties with any demo or MiA assignment submission on Canvas, please email: <u>Head TA Shawn Schwartz (<a href="mailto:stschwartz@stanford.edu?Subject=[Psych45]:%20MiA%20Task%20Demo%20Issue" target="_blank">stschwartz [at] stanford [dot] edu</a>)</u></strong>
+</blockquote>
+
+<center>
+  {% include post_list.html %}
+</center>
