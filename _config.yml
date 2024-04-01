@@ -1,13 +1,10 @@
 title: "Psych 45: Introduction to Learning & Memory (Spring 2023)"
 instructor: Anthony Wagner
-teaching_assistants: Adam Acevedo, Veronica Boyce, Ayo Dada, Nathan Kong, Douglas Miller, <br />Shawn Schwartz, and Tara Srirangarajan
-author: Anthony Wagner, Shawn Schwartz, Adam Acevedo, Veronica Boyce, Ayo Dada, Nathan Kong, Douglas Miller, &amp; Tara Srirangarajan
 url: https://wagnerlab.github.io/psych-45 # root address of the site
 description: > # description of the site (multiple lines allowed)
   Everything we know is derived from and reflects memory for our past. Memories, be they of the recent or more distant past, inform current thinking and action, and enable planning for the future. This course provides an introductory survey of the literature on learning and memory, including consideration of the cognitive and neural organization of memory, mechanisms of remembering and forgetting, and the nature of false memories. Cognitive theory and behavioral evidence will be integrated with data from patient studies and functional brain imaging.
-
+author: Psych 45
 permalink: /:slug
-
 favicon: "./logo.png" # relative path to site's favicon
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
@@ -24,11 +21,11 @@ theme_config:
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
   show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: false # show blog posts added in _posts
+  show_blog: true # show blog posts added in _posts
   show_old_projects: false # show old projects as cards, add in _data/home.yml
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
-  show_reading_time: true # show number of words and reading time in the blog posts
-  show_tags: true # show tags in a blog posts
+  show_reading_time: false # show number of words and reading time in the blog posts
+  show_tags: false # show tags in a blog posts
   # options for "home" page
   home:
     title_projects: Course Resources
