@@ -1,29 +1,29 @@
 navbar_entries:
   - title: home
-    url: /psych-45/
+    url: /
 
   - title: memory in action (MiA)
-    url: mia
+    url: /mia
 
   - title: course demos
-    url: demos
+    url: /demos
 
   - title: additional resources
-    url: resources
+    url: /resources
 
   - title: archives
     url: https://web.stanford.edu/class/psych45/index.html
 
 project_entries:
   - title: Syllabus
-    url: /psych-45/assets/documents/Psych45_Syllabus_2023_04.03.23.pdf
+    url: /psych-45/assets/docs/p45_syllabus_2024.pdf
     desc: View course syllabus PDF
 
   - title: Piazza
-    url: https://piazza.com/class/lfv991dp6ij7lw
+    url: https://piazza.com/stanford/spring2024/psych45
     desc: Visit the course Piazza page for asking and answering questions
 
   - title: Canvas
-    url: https://canvas.stanford.edu/courses/173428
+    url: https://canvas.stanford.edu/courses/191285
     desc: Visit the course Canvas page for accessing lecture slides and other course materials
 
