@@ -1,0 +1,3 @@
+[submodule "mia-demos"]
+	path = mia-demos
+	url = git@github.com:shawntschwartz/psych45-demos.git
