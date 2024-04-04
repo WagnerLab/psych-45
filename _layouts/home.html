@@ -10,17 +10,24 @@ layout: default
 
   <h2>{{ site.title }}</h2>
   {% if site.theme_config.show_description == true %}
-    <p>{{ site.description }}</p>
+    <p><small>{{ site.description }}</small></p>
   {% endif %}
 
+  {% if site.theme_config.show_projects == true %}
+    <h2>{{ site.theme_config.home.title_projects }}</h2>
+    {% include card_list.html collection=site.data.home.project_entries %}
+  {% endif %}
+
+
   <h2>Instructor</h2>
-  <h3>{{ site.instructor }}</h3>
+  <h3><a href="https://memorylab.stanford.edu/people/members" target="_blank">{{ site.instructor }}</a></h3>
   <img src="../psych-45/assets/images/team/anthony.jpg" width="100px" />
   <ul>
     <li><strong>Email:</strong> <a href="mailto:awagner@stanford.edu">awagner</a></li>
     <li><strong>Office Hours (+by appointment):</strong> Wed 2:30-3:30pm</li>
     <li><strong>Office Location:</strong> Bldg 420, Rm 402</li>
   </ul>
+
 
   <h2>Teaching Assistants</h2>
 
@@ -37,50 +44,44 @@ layout: default
     <tbody>
       <tr>
         <th><img src="../psych-45/assets/images/team/shawn.jpg" width="75px" /></th>
-        <th scope="row">Shawn Schwartz (he/him) <em>*Head TA*</em></th>
+        <th scope="row"><a href="https://shawnschwartz.com" target="_blank">Shawn Schwartz</a> (he/him) <em>*Head TA*</em></th>
         <td>stschwartz</td>
         <td>Thursday<br />1:30-2:30p</td>
         <td>420-470</td>
       </tr>
       <tr>
         <th><img src="../psych-45/assets/images/team/alice.jpg" width="75px" /></th>
-        <th scope="row">Alice<br />Xue (she/her)</th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/alice-xue" target="_blank">Alice<br />Xue</a> (she/her)</th>
         <td>alicexue</td>
         <td>Monday<br />1:30-2:30p</td>
         <td>420-470</td>
       </tr>
       <tr>
         <th><img src="../psych-45/assets/images/team/anna.jpg" width="75px" /></th>
-        <th scope="row">Anna<br />Xu (she/they)</th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/246718" target="_blank">Anna<br />Xu</a> (she/they)</th>
         <td>xua</td>
         <td>Tuesday<br />10:25-11:25a</td>
         <td>420-432</td>
       </tr>
       <tr>
         <th><img src="../psych-45/assets/images/team/douglas.jpg" width="75px" /></th>
-        <th scope="row">Douglas Miller (he/him)</th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/douglas-miller" target="_blank">Douglas Miller</a> (he/him)</th>
         <td>dsmiller</td>
         <td>Friday<br />10:00–11:00a</td>
         <td>420-470</td>
       </tr>
       <tr>
         <th><img src="../psych-45/assets/images/team/huan.jpg" width="75px" /></th>
-        <th scope="row">Huan Wang (he/him)</th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/247139" target="_blank">Huan Wang</a> (he/him)</th>
         <td>huanhw</td>
         <td>Wednesday<br />1:30-2:30p</td>
         <td>420-474</td>
       </tr>
-      
     </tbody>
   </table>
 </header>
 
 {{ content }}
-
-{% if site.theme_config.show_projects == true %}
-  <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.data.home.project_entries %}
-{% endif %}
 
 {% if site.theme_config.show_footer == true %}
   <footer>
