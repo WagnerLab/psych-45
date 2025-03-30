@@ -3,19 +3,19 @@ layout: default
 ---
 
 <header>
-{% if site.theme_config.show_navbar == true %}
+  {% if site.theme_config.show_navbar == true %}
   {% include horizontal_list.html collection=site.data.home.navbar_entries %}
   <div class="dashed"></div>
-{% endif %}
+  {% endif %}
 
   <h2>{{ site.title }}</h2>
   {% if site.theme_config.show_description == true %}
-    <p><small>{{ site.description }}</small></p>
+  <p><small>{{ site.description }}</small></p>
   {% endif %}
 
   {% if site.theme_config.show_projects == true %}
-    <h2>{{ site.theme_config.home.title_projects }}</h2>
-    {% include card_list.html collection=site.data.home.project_entries %}
+  <h2>{{ site.theme_config.home.title_projects }}</h2>
+  {% include card_list.html collection=site.data.home.project_entries %}
   {% endif %}
 
 
@@ -24,7 +24,7 @@ layout: default
   <img src="../psych-45/assets/images/team/anthony.jpg" width="100px" />
   <ul>
     <li><strong>Email:</strong> <a href="mailto:awagner@stanford.edu">awagner</a></li>
-    <li><strong>Office Hours (+by appointment):</strong> Wed 2:30-3:30pm</li>
+    <li><strong>Office Hours (+by appointment):</strong> TBD</li>
     <li><strong>Office Location:</strong> Bldg 420, Rm 402</li>
   </ul>
 
@@ -44,38 +44,43 @@ layout: default
     <tbody>
       <tr>
         <th><img src="../psych-45/assets/images/team/shawn.jpg" width="75px" /></th>
-        <th scope="row"><a href="https://shawnschwartz.com" target="_blank">Shawn Schwartz</a> (he/him) <em>*Head TA*</em></th>
+        <th scope="row"><a href="https://shawnschwartz.com" target="_blank">Shawn Schwartz</a> (he/him) <em>*Head
+            TA*</em></th>
         <td>stschwartz</td>
-        <td>Thursday<br />1:30-2:30p</td>
+        <td>Tuesday<br />1:00-2:00p</td>
         <td>420-412</td>
       </tr>
       <tr>
         <th><img src="../psych-45/assets/images/team/alice.jpg" width="75px" /></th>
-        <th scope="row"><a href="https://profiles.stanford.edu/intranet/alice-xue" target="_blank">Alice<br />Xue</a> (she/her)</th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/alice-xue" target="_blank">Alice<br />Xue</a>
+          (she/her)</th>
         <td>alicexue</td>
-        <td>Monday<br />1:30-2:30p</td>
+        <td>TBD<br />TBD</td>
         <td>420-470</td>
       </tr>
       <tr>
-        <th><img src="../psych-45/assets/images/team/anna.jpg" width="75px" /></th>
-        <th scope="row"><a href="https://profiles.stanford.edu/intranet/246718" target="_blank">Anna<br />Xu</a> (she/they)</th>
-        <td>xua</td>
-        <td>Tuesday<br />10:25-11:25a</td>
+        <th><img src="../psych-45/assets/images/team/lynde.jpg" width="75px" /></th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/lynde-folsom"
+            target="_blank">Lynde<br />Folsom</a> (they/them)</th>
+        <td>lynde</td>
+        <td>TBD<br />TBD</td>
         <td>420-432</td>
       </tr>
       <tr>
-        <th><img src="../psych-45/assets/images/team/douglas.jpg" width="75px" /></th>
-        <th scope="row"><a href="https://profiles.stanford.edu/intranet/douglas-miller" target="_blank">Douglas Miller</a> (he/him)</th>
-        <td>dsmiller</td>
-        <td>Friday<br />10:00–11:00a</td>
-        <td>420-470</td>
+        <th><img src="../psych-45/assets/images/team/sean.jpg" width="75px" /></th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/324588" target="_blank">Sean Paul Anderson</a>
+          (he/him)</th>
+        <td>seanpaul</td>
+        <td>TBD<br />TBD</td>
+        <td>420-xxx</td>
       </tr>
       <tr>
-        <th><img src="../psych-45/assets/images/team/huan.jpg" width="75px" /></th>
-        <th scope="row"><a href="https://profiles.stanford.edu/intranet/247139" target="_blank">Huan Wang</a> (he/him)</th>
-        <td>huanhw</td>
-        <td>Wednesday<br />1:30-2:30p</td>
-        <td>420-474</td>
+        <th><img src="../psych-45/assets/images/team/sarah.jpg" width="75px" /></th>
+        <th scope="row"><a href="https://profiles.stanford.edu/intranet/sarah-smale" target="_blank">Sarah Smale</a>
+          (he/him)</th>
+        <td>sarahs38</td>
+        <td>TBD<br />TBD</td>
+        <td>420-xxx</td>
       </tr>
     </tbody>
   </table>
@@ -84,8 +89,8 @@ layout: default
 {{ content }}
 
 {% if site.theme_config.show_footer == true %}
-  <footer>
-    <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
-  </footer>
+<footer>
+  <div class="dashed"></div>
+  {% include horizontal_list.html collection=site.data.home.footer_entries %}
+</footer>
 {% endif %}
