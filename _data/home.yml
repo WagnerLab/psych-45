@@ -16,10 +16,10 @@ navbar_entries:
 
 project_entries:
   - title: Syllabus
-    url: /psych-45/assets/docs/p45_syllabus_2025.pdf
+    url: /psych-45/assets/docs/p45_syllabus_2026.pdf
     desc: View course syllabus PDF
 
   - title: Canvas
-    url: https://canvas.stanford.edu/courses/208853
+    url: https://canvas.stanford.edu/courses/226328
     desc: Visit the course Canvas page for accessing lecture slides and other course materials
 
