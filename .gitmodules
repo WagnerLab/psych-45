@@ -1,4 +1,3 @@
 [submodule "mia-demos"]
 	path = mia-demos
-	url = git@github.com:shawntschwartz/psych45-demos.git
-	branch = spring26
+	url = git@github.com:alicexue/psych45-demos.git
